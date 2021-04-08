@@ -12,8 +12,8 @@ INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) V
 (6, 'Lash Equipment', 'beauty', 150.00, '2020-12-30', '2021-12-30'),
 (7, 'Solo Trip', 'travel', 8000.00, '2021-04-04', '2021-06-04'),
 (8, 'Law School', 'education', 900.00, '2021-01-30', '2021-09-30'),
-(9, '', 'charity', 3000.00, '2013-06-30', '2013-09-30'),
-(10, 'Help save birds of paradise', 'charity', 5000.00, '2012-03-20', '2013-06-30');
+(9, 'Higher Ed Conference', 'education', 3000.00, '2021-06-30', '2021-09-30'),
+(10, 'Get Kids iPads', 'charity', 2000.00, '2021-03-20', '2021-08-30');
 
 INSERT INTO pledges (id, amount, user_id, project_id) VALUES
 (1, 10.00, 1, 2),
